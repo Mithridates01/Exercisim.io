@@ -19,7 +19,6 @@ describe('Leap year', function() {
 
   it('is reintroduced every 400 years to adjust another day', function() {
     var year = new Year(2000);
-    console.log(year.yearNumber, "YEAR")
     expect(year.isLeap()).toBe(true);
   });
 
